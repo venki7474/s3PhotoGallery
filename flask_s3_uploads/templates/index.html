@@ -1,0 +1,38 @@
+<!---{% extends "layout.html" %}
+{% block body %}
+ 
+<div class="block1">
+<h1>Hello {{name}}!</h1>
+	<h2> {{var}} </h2>
+  <h2>Here is an interesting quote for you: </h2>
+  <p>
+{{quote}}
+
+  </p>
+<img src="http://www.naturalprogramming.com/images/smilingpython.gif">
+</div>
+{% endblock %}
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <h1>Upload Your Files Bro</h1>
+
+    <form action="/" method="POST" enctype="multipart/form-data">
+
+        <label for="user_file">Upload Your File</label>
+        <br></br>
+        <input type="file" name="user_file">
+        <br></br>
+        <button type="submit">Upload</button>
+
+    </form>
+
+</body>
+
+</html>
