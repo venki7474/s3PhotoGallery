@@ -1,8 +1,8 @@
 import os
 
-os.environ["S3_BUCKET_NAME"] = "ejjagiripics"
-os.environ["S3_ACCESS_KEY"] = "AKIAJRTWS7KFCAMNHZNQ"
-os.environ["S3_SECRET_ACCESS_KEY"] = "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"
+os.environ["S3_BUCKET_NAME"] = ""
+os.environ["S3_ACCESS_KEY"] = ""
+os.environ["S3_SECRET_ACCESS_KEY"] = ""
 
 S3_BUCKET	= os.environ.get("S3_BUCKET_NAME")
 S3_KEY 		= os.environ.get("S3_ACCESS_KEY")
